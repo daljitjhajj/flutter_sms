@@ -12,10 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  url_launcher: ^5.4.2
+  url_launcher: 
   flutter_web_plugins:
     sdk: flutter
-  plugin_platform_interface: ^1.0.1
+  plugin_platform_interface: 
 
 dev_dependencies:
   flutter_test:
@@ -29,8 +29,3 @@ flutter:
         pluginClass: FlutterSmsPlugin
       ios:
         pluginClass: FlutterSmsPlugin
-      # macos:
-      #   pluginClass: FlutterSmsPlugin
-      web:
-        pluginClass: FlutterSmsPlugin
-        fileName: flutter_sms_web.dart
